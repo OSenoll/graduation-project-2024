@@ -20,9 +20,9 @@ Fake News Detect, kullanıcıların spor haberlerinin doğruluğunu analiz etmel
 
 | İsim               | Rol          |  
 |--------------------|--------------|  
-| Alimcan Çakır      | Developer    |  
-| Erhan Tarhana      | Developer    |  
-| Ömer Faruk Şenol   | Developer    |  
+| Alimcan Çakır      | Geliştirici  |  
+| Erhan Tarhana      | Geliştirici  |  
+| Ömer Faruk Şenol   | Geliştirici  |  
 
 ## Hedef Kitle  
 Fake News Detect, geniş bir kullanıcı kitlesine hitap etmektedir ve özellikle şu gruplar için idealdir:  
@@ -33,3 +33,37 @@ Fake News Detect, geniş bir kullanıcı kitlesine hitap etmektedir ve özellikl
 
 ## Neden Fake News Detect?  
 Fake News Detect, kullanıcıların yanlış bilgilerin yayılmasını engellemesine yardımcı olurken bilgi güvenliği ve doğruluğunu ön planda tutar. Spor medyasına olan güveni artırmak için güvenilir bir araç sunmayı amaçlamaktadır.  
+
+---
+
+<details>
+  <summary> <h1> Sprint 1: Planlama ve Başlangıç </h1>h1></summary>
+
+### Sprint Hedefi  
+Projenin temel altyapısının planlanması ve kullanılacak araçların belirlenmesi. Takım üyeleri arasındaki iş birliğini güçlendirmek için temel Scrum uygulamalarının öğrenilmesi ve Trello kullanımı üzerinde anlaşılması.  
+
+### Sprint 1'de Tamamlanan İşler  
+1. **Trello Kullanımı Kararlaştırıldı:**  
+   - Takımın ilerlemesini takip etmek ve görev dağılımını organize etmek için Trello kullanımına karar verildi.  
+   - "To Do," "In Progress" ve "Done" sütunları oluşturularak proje board'u hazırlandı.  
+
+2. **Scrum Süreçlerinin Tanımlanması:**  
+   - Sprint süresi 1 hafta olarak belirlendi.  
+   - Günlük kısa toplantılar (Daily Scrum) yapılacağı kararlaştırıldı.  
+   - Sprint sonlarında retrospektif toplantıların düzenlenmesi planlandı.  
+
+3. **Kullanılacak Araçların Belirlenmesi:**  
+   - **Google Colab:** Kod geliştirme ve model eğitimi için.  
+   - **VS Code:** Proje kodlarının düzenlenmesi için.  
+   - **Pandas, Matplotlib, NumPy, Scikit-learn:** Veri işleme ve model geliştirme için.  
+   - **Trello:** Proje yönetimi ve görev dağılımı için.  
+
+4. **Proje Yapısının Planlanması:**  
+   - Sahte haber analizinde kullanılacak ana özelliklerin belirlenmesi.  
+   - Veri setlerinin nereden temin edileceğine dair fikirlerin paylaşılması (Kaggle ve sosyal medya veri tarama).  
+
+5. **İlk Backlog Oluşturuldu:**  
+   - Sprint 2'de yapılacak işler için backlog maddeleri hazırlandı.  
+   - Veri setlerinin incelenmesi ve seçimi, ilk veri işleme adımları, temel model tasarımına başlanması gibi işler belirlendi.  
+
+</details>
