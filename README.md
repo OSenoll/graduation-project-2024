@@ -1,6 +1,6 @@
-# Sahte Haber Analiz  
+# Sahte Haber Analizi ve Tespiti
 
-Fake News Detect, kullanıcıların spor haberlerinin doğruluğunu analiz etmelerini sağlayan yenilikçi bir platformdur. Makine öğrenimi ve doğal dil işleme (NLP) tekniklerini bir araya getiren bu uygulama, spor haberlerinin doğruluğunu doğrularken eğitici ve güvenilir bir deneyim sunar.  
+Sahte Haber Tespiti, kullanıcıların spor haberlerinin doğruluğunu analiz etmelerini sağlayan yenilikçi bir platformdur. Makine öğrenimi ve doğal dil işleme (NLP) tekniklerini bir araya getiren bu uygulama, spor haberlerinin doğruluğunu doğrularken eğitici ve güvenilir bir deneyim sunar.  
 
 ## Özellikler  
 
@@ -25,14 +25,14 @@ Fake News Detect, kullanıcıların spor haberlerinin doğruluğunu analiz etmel
 | Ömer Faruk Şenol   | Geliştirici  |  
 
 ## Hedef Kitle  
-Fake News Detect, geniş bir kullanıcı kitlesine hitap etmektedir ve özellikle şu gruplar için idealdir:  
+Sahte Haber Tespiti, geniş bir kullanıcı kitlesine hitap etmektedir ve özellikle şu gruplar için idealdir:  
 - **Spor Meraklıları:** Güvenilir kaynaklardan doğru spor haberlerini takip etmek isteyenler.  
 - **Araştırmacılar ve Akademisyenler:** Sahte haberlerin yayılımını inceleyen ve bu konuda çalışmalar yapan kişiler.  
 - **Sosyal Medya Kullanıcıları:** Karşılaştıkları haberlerin doğruluğunu kolayca teyit etmek isteyenler.  
 - **Gençler ve Öğrenciler:** Hem spor hem de teknolojiye ilgi duyan, eğitici ve interaktif bir deneyim arayanlar.  
 
-## Neden Fake News Detect?  
-Fake News Detect, kullanıcıların yanlış bilgilerin yayılmasını engellemesine yardımcı olurken bilgi güvenliği ve doğruluğunu ön planda tutar. Spor medyasına olan güveni artırmak için güvenilir bir araç sunmayı amaçlamaktadır.  
+## Neden Sahte Haber Tespiti?  
+Sahte Haber Tespiti, kullanıcıların yanlış bilgilerin yayılmasını engellemesine yardımcı olurken bilgi güvenliği ve doğruluğunu ön planda tutar. Spor medyasına olan güveni artırmak için güvenilir bir araç sunmayı amaçlamaktadır.  
 
 ---
 
@@ -83,7 +83,8 @@ Projenin temel altyapısının planlanması ve kullanılacak araçların belirle
 
 
 <details>
-  <summary> <h1> Sprint 2: Veri Hazırlık ve Model Tasarımı </h1></summary>      
+  <summary> <h1> Sprint 2: Veri Hazırlık ve Model Tasarımı </h1></summary>
+  
 ### Sprint Hedefi
 Veri setlerinin hazırlanması, ön işleme adımlarının tamamlanması ve NLP modelinin temel yapısının oluşturulması. Ayrıca takım içi iletişim ve çalışma akışını geliştirmek için önceki sprintten çıkan derslerin uygulanması.
 
@@ -106,6 +107,15 @@ Veri setlerinin hazırlanması, ön işleme adımlarının tamamlanması ve NLP 
 #### 4. Topluluk Verileri Çıkarımı
 - Spor haberlerinin sosyal medyada yayılımına dair özellikler çıkarıldı.
 - Bu veriler, model eğitimi için kullanılabilir hale getirildi.
+
+   ### Sprint 2 Retrospektifi ve Düzeltmeler
+#### 1. Neler İyi Gitti?
+- Veri setlerinin temizlenmesi ve ön işleme süreçleri planlandığı gibi ilerledi, bu sayede model eğitimi için güçlü bir temel oluşturuldu.
+- NLP modelinin temel yapısı başarıyla hazırlandı ve ilk prototip testleri gerçekleştirilerek başlangıç sonuçları elde edildi.
+
+#### 2. İyileştirilmesi Gerekenler
+- Veriler üzerinde yapılan işlemlerin detaylı bir şekilde belgelenmesinin sonraki sprintler için faydalı olacağı görüldü.
+- İlk test sonuçlarının daha kapsamlı analiz edilmesi gerektiği fark edildi.
 
 </details>
 
@@ -140,6 +150,12 @@ NLP modelinin temel yapısını oluşturarak ilk çalışabilir versiyonu hazır
 
 - Modelin çalışabilirliği için ilk performans değerlendirmeleri yapıldı.
 - Precision, recall ve F1-score gibi metrikler hesaplandı ve optimize edilmeye başlandı.
+
+  ### Sprint 3 Retrospektifi ve Düzeltmeler
+#### 1. İyileştirilmesi Gerekenler
+- Başlangıçta spor haberlerine odaklanılması hedeflenmiş, ancak uygun veri seti bulunamadığı için genel haber veri setleri kullanılmıştır. Bu veri setleriyle temel modeller geliştirilmiş, gelecekte spor haberlerine özel veri seti oluşturulması planlanmaktadır.
+- Görev dağılımında daha fazla netlik sağlanması önerildi.
+  
 </details>
 
 
