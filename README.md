@@ -1,4 +1,4 @@
-# Fake News Detect  
+# Sahte Haber Analiz  
 
 Fake News Detect, kullanıcıların spor haberlerinin doğruluğunu analiz etmelerini sağlayan yenilikçi bir platformdur. Makine öğrenimi ve doğal dil işleme (NLP) tekniklerini bir araya getiren bu uygulama, spor haberlerinin doğruluğunu doğrularken eğitici ve güvenilir bir deneyim sunar.  
 
@@ -37,7 +37,7 @@ Fake News Detect, kullanıcıların yanlış bilgilerin yayılmasını engelleme
 ---
 
 <details>
-  <summary> <h1> Sprint 1: Planlama ve Başlangıç </h1>h1></summary>
+  <summary> <h1> Sprint 1: Planlama ve Başlangıç </h1></summary>
 
 ### Sprint Hedefi  
 Projenin temel altyapısının planlanması ve kullanılacak araçların belirlenmesi. Takım üyeleri arasındaki iş birliğini güçlendirmek için temel Scrum uygulamalarının öğrenilmesi ve Trello kullanımı üzerinde anlaşılması.  
@@ -64,6 +64,85 @@ Projenin temel altyapısının planlanması ve kullanılacak araçların belirle
 
 5. **İlk Backlog Oluşturuldu:**  
    - Sprint 2'de yapılacak işler için backlog maddeleri hazırlandı.  
-   - Veri setlerinin incelenmesi ve seçimi, ilk veri işleme adımları, temel model tasarımına başlanması gibi işler belirlendi.  
+   - Veri setlerinin incelenmesi ve seçimi, ilk veri işleme adımları, temel model tasarımına başlanması gibi işler belirlendi.
+
+   ### Sprint 1 Retrospektifi ve Düzeltmeler
+#### 1. Neler İyi Gitti?
+- Tüm takım Trello kullanımına kolayca adapte oldu.
+- Sprint hedefleri net bir şekilde tanımlandı ve çoğu tamamlandı.
+
+#### 2. İyileştirilmesi Gerekenler
+- Günlük toplantıların daha disiplinli bir şekilde yapılması kararlaştırıldı.
+- Görev dağılımında daha fazla netlik sağlanması önerildi.
+
+#### 3. Kararlaştırılan Eylemler
+- Günlük toplantıları her gün saat 10:00'da yapılacak.
+- Sprint sonlarında, bireysel katkılar üzerine daha detaylı geri bildirim verilecek.
 
 </details>
+
+
+<details>
+  <summary> <h1> Sprint 2: Veri Hazırlık ve Model Tasarımı </h1></summary>      
+### Sprint Hedefi
+Veri setlerinin hazırlanması, ön işleme adımlarının tamamlanması ve NLP modelinin temel yapısının oluşturulması. Ayrıca takım içi iletişim ve çalışma akışını geliştirmek için önceki sprintten çıkan derslerin uygulanması.
+
+### Sprint 2'de Tamamlanan İşler
+#### 1. Veri Setlerinin Temizlenmesi ve Ön İşleme
+- Veri setlerindeki eksik ve hatalı veriler temizlendi.
+- Doğruluk analizi için gerekli olan özellikler belirlendi ve öznitelik mühendisliği uygulandı.
+- Tekrarlayan veya anlamsız veriler ayıklandı ve veriler normalize edildi.
+
+#### 2. NLP Modelinin Temel Yapısının Oluşturulması
+- Haber metinlerinin özelliklerini analiz etmek için öncelikle Tokenization ve Lemmatization adımları entegre edildi.
+- Bag-of-Words (BoW) ve TF-IDF gibi temel metin temsili teknikleri denendi.
+- Doğruluk ve performans değerlendirmesi için çoklu model yaklaşımları için altyapı hazırlandı.
+
+#### 3. Prototip Testlerinin Başlatılması
+- Hazırlanan veriler üzerinde NLP modeliyle ilk testler gerçekleştirildi.
+- Basit logistic regression ve naive bayes modelleri ile ilk test sonuçları alındı.
+- Model için hiperparametre ayarına başlandı.
+
+#### 4. Topluluk Verileri Çıkarımı
+- Spor haberlerinin sosyal medyada yayılımına dair özellikler çıkarıldı.
+- Bu veriler, model eğitimi için kullanılabilir hale getirildi.
+
+</details>
+
+<details>
+  <summary> <h1>Sprint 3: NLP Model Tasarımı ve Derinleştirilmesi </h1></summary>    
+
+### Sprint Hedefi
+
+NLP modelinin temel yapısını oluşturarak ilk çalışabilir versiyonu hazırlamak. Model tasarımının ileri seviyede uygulanması için altyapıyı hazır hale getirmek.
+
+### Sprint 3'te Tamamlanan İşler
+
+#### 1. Tokenization ve Metin Ön İşleme
+
+- Model için metinlerin parçalanması sağlandı (Word ve Sentence tokenization).
+- Stopword'ler filtrelenerek, anlamsız kelimeler metinlerden çıkarıldı.
+- Lemmatization ve stemming işlemleri eklenerek, kelimeler kök formlarına dönüştürüldü.
+
+#### 2. Veri Temsili Tekniklerinin Derinleştirilmesi
+
+- TF-IDF özellik çıkarımında hiperparametre optimizasyonu yapıldı.
+- Embedding teknikleri (Word2Vec ve GloVe) incelendi ve altyapıya dahil edildi.
+- Bu temsil teknikleri arasında bağlılık analizi yapılarak en verimli teknik seçildi.
+
+#### 3. Model Tasarımında İlk Adımlar
+
+- Logistic Regression ve Support Vector Machines (SVM) modelleri ile ilk testler gerçekleştirildi.
+- Hangi modelin daha fazla hassasiyet sağladığına dair ön analizler tamamlandı.
+- Baseline model oluşturularak daha ileri tekniklerin bu modelle karşılaştırılması planlandı.
+
+#### 4. Performans ve Doğruluk Analizleri
+
+- Modelin çalışabilirliği için ilk performans değerlendirmeleri yapıldı.
+- Precision, recall ve F1-score gibi metrikler hesaplandı ve optimize edilmeye başlandı.
+</details>
+
+
+
+
+
